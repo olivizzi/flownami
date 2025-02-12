@@ -1,0 +1,37 @@
+  <style>
+        .board {
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            min-height: 300px;
+        }
+        .task {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+<h1 class="text-center">Task Board</h1>
+  <div class="board">
+    <div class="column">
+      <h3>To Do</h3>
+      <div class="task">Task 1</div>
+      <div class="task">Task 2</div>
+      <button class="btn btn-primary mt-2">Add Task</button>
+    </div>
+    <div class="column">
+      <h3>Doing</h3>
+    </div>
+    <div class="column">
+      <h3>Done</h3>
+    </div>
+  </div>
+</div>
